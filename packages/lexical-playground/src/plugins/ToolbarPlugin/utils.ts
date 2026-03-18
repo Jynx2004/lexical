@@ -344,7 +344,7 @@ export const clearFormatting = (
       const nodes = selection.getNodes();
       const extractedNodes = selection.extract();
 
-      if (anchor.key === focus.key && anchor.offset === focus.offset) {
+      if (nodes.length === 0) {
         return;
       }
 

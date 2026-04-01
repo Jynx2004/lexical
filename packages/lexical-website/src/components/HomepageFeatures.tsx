@@ -103,7 +103,7 @@ function Feature({
         border: isDark ? cardBorderDark : cardBorder,
       }}>
       <div
-        className="relative mt-6 mb-4 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full"
+        className="relative mb-4 mt-6 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full"
         style={{background: iconGradient}}>
         <div className="absolute -bottom-1 flex h-11 w-11 justify-center rounded-md bg-white py-1.5">
           <Svg className="h-6 w-6 text-black" aria-label={title} />
